@@ -7,5 +7,6 @@ public class Main {
         MarkovChain markovChain = new MarkovChain();
         graph.init(markovChain.getMatrix());
         System.out.println(markovChain.getCurentPobability(8));
+		System.out.println("test")
     }
 }
